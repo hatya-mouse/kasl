@@ -355,7 +355,13 @@ dependencies = [
 ]
 
 [[package]]
-name = "kasl-cranelift-backend"
+name = "kasl-ir"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7d47701276b8b5bc4eaa23203070eeb899e34bb59084580d949c70d6a62cd632"
+
+[[package]]
+name = "leb128fmt"
 version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "049e941799b84f31e4633aca6d061833f415dd7d438e733e2b35ed85898fdc3f"
