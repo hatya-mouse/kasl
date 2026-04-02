@@ -14,4 +14,5 @@
 //  limitations under the License.
 //
 
+#[cfg(feature = "cranelift")]
 pub use kasl_cranelift_backend::*;
