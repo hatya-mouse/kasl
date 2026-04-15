@@ -16,7 +16,7 @@ path = "src/lib.rs"
 cranelift = ["dep:kasl-cranelift-backend"]
 
 [dependencies]
-kasl-core = "0.1.14"
+kasl-core = "0.1.16"
 kasl-cranelift-backend = { version = "0.1.1", optional = true }
 kasl-ir = "0.1.0"
 
