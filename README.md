@@ -52,6 +52,6 @@ input time = 0.0
 output out = 0.0
 
 func main() {
-    out = std.float.sin((2 * pi * frequency * time) / sample_rate)
+    out = std.float.sin((2.0 * pi * frequency * time) / sample_rate)
 }
 ```
