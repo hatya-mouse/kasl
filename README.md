@@ -5,11 +5,11 @@
 # About the KASL language
 
 KASL is a programming language designed for audio processing.
-The KASL language itself is implemented as a simple numerical calculation language with unique `input`, `output` and `state` variables, and can be used for audio processing with my [Knodiq DAW](https://github.com/hatya-mouse/knodiq), which is under development.
+The KASL language itself is implemented as a simple numerical calculation language with unique `input`, `output` and `state` variables, and can be used for audio processing with my [Kreniq DAW](https://github.com/hatya-mouse/kreniq), which is under development.
 
 ## How to Run the KASL Programs
 
-You can use Knodiq DAW to play audio using the KASL language.
+You can use Kreniq DAW to play audio using the KASL language.
 Also, you can run KASL code for genuine numerical calculation and there two ways to run it:
 
 - [`kaslc`](https://github.com/hatya-mouse/kaslc) — A command-line tool to run KASL programs locally.
@@ -22,7 +22,7 @@ KASL is specificlly designed for audio synthesis, so there are some points that 
 ### Input, Output and State Variables
 
 KASL natively supports `input`, `output` and `state` variables.
-`input` variables are the variables that can receive data from the execution host. For example, when you run KASL program on Knodiq and connect an edge to the input in the graph editor, the value will be passed to the variable.
+`input` variables are the variables that can receive data from the execution host. For example, when you run KASL program on Kreniq and connect an edge to the input in the graph editor, the value will be passed to the variable.
 `output` variables pass the calculated data back to the execution host. To illustrate, this can be used for synthesizers to pass the generated samples to the DAW.
 `state` variables can preserve the stored value over the samples. This is useful for creating a delay buffer to create effects such as echo, or reverb.
 
