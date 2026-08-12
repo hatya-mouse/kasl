@@ -339,7 +339,7 @@ dependencies = [
 
 [[package]]
 name = "kasl"
-version = "0.2.34"
+version = "0.2.35"
 dependencies = [
  "kasl",
  "kasl-core",
