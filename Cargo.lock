@@ -299,11 +299,7 @@ version = "0.16.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "841d1cc9bed7f9236f321df977030373f4a4163ae1a7dbfe1a51a2c1a51d9100"
 dependencies = [
- "allocator-api2",
- "equivalent",
  "foldhash",
- "serde",
- "serde_core",
 ]
 
 [[package]]
@@ -311,6 +307,13 @@ name = "hashbrown"
 version = "0.17.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ed5909b6e89a2db4456e54cd5f673791d7eca6732202bbf2a9cc504fe2f9b84a"
+dependencies = [
+ "allocator-api2",
+ "equivalent",
+ "foldhash",
+ "serde",
+ "serde_core",
+]
 
 [[package]]
 name = "heck"
@@ -339,7 +342,7 @@ dependencies = [
 
 [[package]]
 name = "kasl"
-version = "0.2.39"
+version = "0.2.40"
 dependencies = [
  "kasl",
  "kasl-core",
@@ -349,11 +352,11 @@ dependencies = [
 
 [[package]]
 name = "kasl-core"
-version = "0.1.30"
+version = "0.1.31"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dc672aae38feaac18d8aa01e08db320e731ea082866e047332d50da93d330e42"
+checksum = "afe5aff8142e7afd45848629aa0400207b8607247a0eae9fa7c3e70136e1e171"
 dependencies = [
- "hashbrown 0.16.1",
+ "hashbrown 0.17.1",
  "kasl-ir",
  "peg",
  "rust-embed",
@@ -364,9 +367,9 @@ dependencies = [
 
 [[package]]
 name = "kasl-cranelift-backend"
-version = "0.1.7"
+version = "0.1.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "28b22ae406d86f700b735366d5efb93d9de36f543d93aa4231e12c205fea06f0"
+checksum = "2da32f810ebc324e6af427a612b38cf775d2fcc69fb35146a7bffda191aae45f"
 dependencies = [
  "cranelift",
  "cranelift-codegen",
